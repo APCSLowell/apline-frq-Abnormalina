@@ -12,3 +12,4 @@ public class APLine
   public boolean isOnline(int x, int y){
     return ((a1*x + b1*y + c1)==0);
 }
+}
