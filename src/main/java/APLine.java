@@ -10,9 +10,5 @@ public class APLine
     return -(double)a1/b1;
   }
   public boolean isOnline(int x, int y){
-    if((a1*x + b1*x + c1)==0){
-      return true;
-    }
-    return false;
-  }
+    return ((a1*x + b1*x + c1)==0);
 }
