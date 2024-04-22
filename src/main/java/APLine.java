@@ -9,7 +9,7 @@ public class APLine
   public double getSlope(){
     return -(double)a1/b1;
   }
-  public boolean isOnline(int x, int y){
+  public boolean isOnLine(int x, int y){
     return a1*x + b1*y + c1==0;
 }
 }
