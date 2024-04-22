@@ -10,6 +10,9 @@ public class APLine
     return -(double)a1/b1;
   }
   public boolean isOnLine(int x, int y){
-    return a1*x + b1*y + c1==0;
+    if( a1*x + b1*y + c1==0){
+      return true;
+    }
+    return false;
 }
 }
